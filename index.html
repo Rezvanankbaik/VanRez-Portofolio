@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Ludiflex</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">VanRez</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Rezvanankbaik</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced frontend developer with a passion for creating visually stunning
+                            and user-friendly websites.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.instagram.com/rezvanankbaik/"><i
+                                    class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/rezvanhaidarawwal-awwal-20305a2b8/"
+                                target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="+62-852-8056-1631" target="_blank"><i
+                                    class="uil uil-whatsapp"></i></a></div>
+                        <div class="icon"><a href="https://github.com/Rezvanankbaik" target="_blank"><i
+                                    class="uil uil-github-alt"></i></a></div>
+
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="asset/2.png" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                                frameworks and libraries,which allows me to implement interactive features.
+                                Additionally, I have experirence working with content management systems (CMS) like
+                                WordPress.
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>PHP</span>
+                                <span>JAVA</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+
+                <div data-aos="fade-right" data-aos-duration="1000" class="container-website-1">
+                    <div class="container-img-portofolio-1">
+                        <img src="asset/always.png" />
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="1000" class="container-text-portofolio-1">
+                        <h2>Indonesia Food</h2>
+                        <p>
+                            A modern website designed for a local food delivery service. It
+                            features a clean interface, easy navigation, and responsive design,
+                            allowing users to explore the rich culinary traditions of
+                            Indonesia.
+                        </p>
+
+                        <p>
+                            Developed with HTML, CSS, and JavaScript, this project was a great
+                            opportunity to apply my front-end skills in a real-world context.
+                        </p>
+
+                        <div class="btn-visit-web">
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-website-2">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="container-text-portofolio-2">
+                        <h2>NETFLIX</h2>
+                        <p>
+                            This project involved transforming a high-fidelity design mockup
+                            into a fully functional web page. The focus was on pixel-perfect
+                            accuracy, ensuring the end product closely matched the original
+                            design.
+                        </p>
+
+                        <p>
+                            Tools like CSS Grid and Flexbox were key in achieving the
+                            responsive layout, while JavaScript was used for interactive
+                            elements.
+                        </p>
+                        <div class="btn-visit-web">
+                            <a href="#">Visit</a>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-duration="2000" class="container-img-portofolio-2">
+                        <img src="asset/netflix.png" />
+                    </div>
+                </div>
+    </div>
+    </section>
+
+    <section id="certificate">
+        <div class="container-text-certificate">
+            <h2>Certifications</h2>
+            <p>
+                Here are some of the certifications I have earned, reflecting my
+                commitment to continuous learning and improvement in the field of web
+                development.
+            </p>
+        </div>
+
+        <div class="carousel" id="carousel">
+            <div class="carousel-images" id="carousel-images">
+                <img src="asset/sertivikat.png" alt="1" />
+                <img src="asset/sertivikat.png" alt="2" />
+                <img src="asset/sertivikat.png" alt="3" />
+                <img src="asset/sertivikat.png" alt="4" />
+                <img src="asset/sertivikat.png" alt="5" />
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------- CONTACT BOX ---------------- -->
+
+    <section class="section" id="contact">
+        <div class="top-header">
+            <h1>Contact Me</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: rezvanhaidarawwalawwal@.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +62 52 8056 1631</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>VanRez .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://www.instagram.com/rezvanankbaik/"><i class="uil uil-instagram"></i></a>
+            </div>
+            <div class="icon"><a href="https://www.linkedin.com/in/rezvanhaidarawwal-awwal-20305a2b8/"
+                    target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+            <div class="icon"><a href="+62-852-8056-1631" target="_blank"><i class="uil uil-whatsapp"></i></a></div>
+            <div class="icon"><a href="https://github.com/Rezvanankbaik" target="_blank"><i
+                        class="uil uil-github-alt"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">VanRez</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="javascript.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
